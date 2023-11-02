@@ -80,8 +80,8 @@ fi
 
 echo "Download template and docker-compose file with template..."
 cd /opt/marzban
-curl -sLO https://github.com/danuk/shm-templates/raw/main/marzban/docker-compose.yml
-curl -sLO https://github.com/danuk/shm-templates/raw/main/marzban/template_subscription_index.html
+curl -sLO https://github.com/DrHo1y/mazban_template/raw/master/docker-compose.yml
+curl -sLO https://github.com/DrHo1y/mazban_template/raw/master/sub.html
 echo "done"
 
 marzban restart -n
